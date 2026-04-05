@@ -99,7 +99,12 @@ dist/
 
 ```
 Inicio del hilo principal
-Hola "nombre"
-Mensaje del worker: "resultado"
-Worker finalizado
+Mensaje del worker 2: {
+  status: 'error',
+  message: "El parámetro 'nombre' debe ser un string"
+}
+Worker 2 finalizado
+Hola Mauricio 👋
+Mensaje del worker 1: { status: 'success', data: 10 }
+Worker 1 finalizado
 ```
